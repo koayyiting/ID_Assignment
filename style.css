@@ -1,0 +1,9 @@
+li {
+    list-style: none;
+    display: inline;
+    display: inline-block;
+    text-align: right;
+    color: black;
+}
+
+
