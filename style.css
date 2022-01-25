@@ -7,4 +7,36 @@
     margin: 0px;
 }
 
+.col-4, .col-8{
+    margin-top: 30px;
+}
 
+
+
+.aboutHeader{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+img{
+    max-width: 100%;  
+    height: auto;
+}
+
+.nav-link{
+    font-size: 20px;
+    color: black;
+}
+
+.form-select{
+    margin-left: 100px;
+}
+
+.form-select{
+    margin: 0px;
+}
+
+
+.btn btn-outline-success{
+    margin-left: 10px;
+}
