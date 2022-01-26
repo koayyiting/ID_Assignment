@@ -59,3 +59,8 @@ Example:
 ### Acknowledgements
 
 - We received inspiration for this project...
+
+
+### Some VSCode ShortCuts for us to use:
+Ctrl + [ = dedent
+Ctrl + ] = indent  
