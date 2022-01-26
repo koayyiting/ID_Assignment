@@ -16,40 +16,50 @@
     <div class="container">
         <div class="row">
             <div class="col">
-            1 of 2
+            <!--For now use this pic. I think we could put like our social media platform instead-->
+            <img src = "images/contact us.png" alt = "contact" id="contactPic">
+            <p></p>
+            <p>
+                Do feel free to contact us with any question about the our Adoption, Donation and Events.
+            </p>
+            <p>
+                We will respond to your query within 5 Working Days via ur Email Address Provide in the Form.
+            </p>
+            <p>
+                Thank you for your time and attention, do help us share our website to friends and family who is a pet lover.
+            </p> 
+            <p>
+                Hope you enjoy your day!
+            </p>
             </div>
             <div class="col">
-                <div class="input-group mb-2">
-                    <span class="input-group-text" id="basic-addon1">@</span>
-                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-                </div>
-                
+                <label for="floatingInputValueName">Name:</label>
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                    <span class="input-group-text" id="basic-addon2">@example.com</span>
+                    <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1" id="floatingInputValueName">
                 </div>
                 
-                <label for="basic-url" class="form-label">Your vanity URL</label>
+                <label for="floatingInputValue">Email Address:</label>
                 <div class="input-group mb-3">
-                    <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
-                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                    <input type="email" class="form-control" id="floatingInputValue">
                 </div>
                 
+                <label for="mobileNumber">Contact Number:</label>
                 <div class="input-group mb-3">
-                    <span class="input-group-text">$</span>
-                    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-                    <span class="input-group-text">.00</span>
+                    <input type="text" class="form-control" id="mobileNumber" aria-describedby="basic-addon3">
                 </div>
                 
+                <label for="subjectForContact">Subject:</label>
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Username" aria-label="Username">
-                    <span class="input-group-text">@</span>
-                    <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+                    <input type="text" class="form-control" id="subjectForContact" aria-describedby="basic-addon3">
                 </div>
                 
+                <label for="messageForContact">Message:</label>
                 <div class="input-group">
-                    <span class="input-group-text">With textarea</span>
-                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                    <textarea class="form-control" aria-label="With textarea" id="messageForContact"></textarea>
+                </div>
+
+                <div class="input-group mb-3">
+                    <button type="button" class="btn btn-light" style="margin-top: 20px;">Submit</button>
                 </div>
             </div>
         </div>
