@@ -45,12 +45,28 @@ img{
     padding: 6px 12;
     height: 38px;
     border-radius: 5px;
-
 }
+
 .col{
     margin-top: 30px;
 }
 
 .row{
     margin-bottom: 30px;
+}
+
+.learnMore{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.addMargin{
+    margin-top: 20px;
+}
+
+.addMarginAgn{
+    margin-bottom: 50px;
+    display: grid;
+    place-items: center;
 }
