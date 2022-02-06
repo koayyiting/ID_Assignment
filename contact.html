@@ -12,7 +12,11 @@
     <div script-html="header.html"></div>
 
     <h2 class="pageName">Contact Us</h2>
-
+    <div id="add-update-msg">
+        <div class="alert alert-success" role="alert">
+            Contact Form Submitted!
+        </div>
+    </div>
     <div class="container">
         <div class="row">
             <div class="col">
@@ -34,33 +38,43 @@
             </p>
             </div>
             <div class="col">
-                <label for="floatingInputValueName">Name:</label>
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1" id="floatingInputValueName">
-                </div>
-                
-                <label for="floatingInputValue">Email Address:</label>
-                <div class="input-group mb-3">
-                    <input type="email" class="form-control" id="floatingInputValue">
-                </div>
-                
-                <label for="mobileNumber">Contact Number:</label>
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" id="mobileNumber" aria-describedby="basic-addon3">
-                </div>
-                
-                <label for="subjectForContact">Subject:</label>
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" id="subjectForContact" aria-describedby="basic-addon3">
-                </div>
-                
-                <label for="messageForContact">Message:</label>
-                <div class="input-group">
-                    <textarea class="form-control" aria-label="With textarea" id="messageForContact"></textarea>
-                </div>
-
-                <div class="input-group mb-3">
-                    <button type="button" class="btn btn-light" style="margin-top: 20px;">Submit</button>
+                <div class="form" id="add-contact">
+                    <form id="add-contact-form">
+                        <div class="form-group">
+                            <label for="contact-name">Name:</label>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1" id="contact-name" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-email">Email Address:</label>
+                            <div class="input-group mb-3">
+                                <input type="email" class="form-control" id="contact-email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-number">Contact Number:</label>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" id="contact-number" aria-describedby="basic-addon3">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-subject">Subject:</label>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" id="contact-subject" aria-describedby="basic-addon3">
+                            </div>
+                        </div>
+                        <div class="form-group"></div>
+                            <label for="contact-msg">Message:</label>
+                            <div class="input-group">
+                                <textarea class="form-control" aria-label="With textarea" id="contact-msg"></textarea>
+                            </div>
+                        </div>
+                            <div class="input-group mb-3">
+                                <input type="submit" value="Submit" class="btn btn-light" id="contact-submit" style="margin-top: 20px;">
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -72,3 +86,4 @@
 <script src="script.js"></script>
 
 </html>
+
