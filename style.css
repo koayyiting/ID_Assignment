@@ -11,8 +11,6 @@
     margin-top: 30px;
 }
 
-
-
 .aboutHeader{
     font-size: 25px;
     font-weight: bold;
@@ -69,4 +67,12 @@ img{
     margin-bottom: 50px;
     display: grid;
     place-items: center;
+}
+
+.catPicInfo{
+    margin-bottom: 20px;
+}
+
+.eventPic{
+    justify-content: center;
 }
