@@ -12,38 +12,39 @@
     <div script-html="header.html"></div>
 
     <h2 class="pageName">Contact Us</h2>
-    <div id="add-update-msg">
-        <div class="alert alert-success" role="alert">
-            Contact Form Submitted!
-        </div>
-    </div>
+    
     <div class="container">
         <div class="row">
             <div class="col">
-            <!--For now use this pic. I think we could put like our social media platform instead-->
-            <img src = "images/contact us.png" alt = "contact" id="contactPic">
-            <!--"https://cdn.searchenginejournal.com/wp-content/uploads/2020/08/contact-us-pages-sej-5f63d4f927b04-1520x800.png"-->
-            <p></p>
-            <p>
-                Do feel free to contact us with any question about the our Adoption, Donation and Events.
-            </p>
-            <p>
-                We will respond to your query within 5 Working Days via ur Email Address Provide in the Form.
-            </p>
-            <p>
-                Thank you for your time and attention, do help us share our website to friends and family who is a pet lover.
-            </p> 
-            <p>
-                Hope you enjoy your day!
-            </p>
+                <!--For now use this pic. I think we could put like our social media platform instead-->
+                <img src = "images/contact us.png" alt = "contact" id="contactPic">
+                <!--"https://cdn.searchenginejournal.com/wp-content/uploads/2020/08/contact-us-pages-sej-5f63d4f927b04-1520x800.png"-->
+                <p></p>
+                <p>
+                    Do feel free to contact us with any question about the our Adoption, Donation and Events.
+                </p>
+                <p>
+                    We will respond to your query within 5 Working Days via ur Email Address Provide in the Form.
+                </p>
+                <p>
+                    Thank you for your time and attention, do help us share our website to friends and family who is a pet lover.
+                </p> 
+                <p>
+                    Hope you enjoy your day!
+                </p>
             </div>
             <div class="col">
+                <div id="add-update-msg">
+                    <div class="alert alert-success" role="alert">
+                        Contact Form Submitted!
+                    </div>
+                </div>
                 <div class="form" id="add-contact">
                     <form id="add-contact-form">
                         <div class="form-group">
                             <label for="contact-name">Name:</label>
                             <div class="input-group mb-3">
-                                <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1" id="contact-name" required>
+                                <input type="text" id="contact-name" class="form-control" required>
                             </div>
                         </div>
                         <div class="form-group">
@@ -55,13 +56,13 @@
                         <div class="form-group">
                             <label for="contact-number">Contact Number:</label>
                             <div class="input-group mb-3">
-                                <input type="text" class="form-control" id="contact-number" aria-describedby="basic-addon3">
+                                <input type="text" class="form-control" id="contact-number">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="contact-subject">Subject:</label>
                             <div class="input-group mb-3">
-                                <input type="text" class="form-control" id="contact-subject" aria-describedby="basic-addon3">
+                                <input type="text" class="form-control" id="contact-subject" required>
                             </div>
                         </div>
                         <div class="form-group">
@@ -70,18 +71,18 @@
                                 <textarea class="form-control" aria-label="With textarea" id="contact-msg"></textarea>
                             </div>
                         </div>
-                            <div class="input-group mb-3">
-                                <input type="submit" value="Submit" class="btn btn-light" id="contact-submit" style="margin-top: 20px;">
-                            </div>
+                        <div class="input-group mb-3">
+                            <input type="submit" value="Submit" class="btn btn-light" id="contact-submit" style="margin-top: 20px;">
                         </div>
                     </form>
                 </div>
             </div>
         </div>
     </div>
+    <footer script-html="footer.html"></footer>
 </body>
 
-<footer script-html="footer.html"></footer>
+<script src="scriptContact.js"></script>
 <script src="script.js"></script>
 
 </html>
