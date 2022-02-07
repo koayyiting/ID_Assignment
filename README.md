@@ -6,7 +6,7 @@ This is our project which is designed based on a topic given which is "Possible 
 Our Goal is create a interactive and user friendly website.
 
 ## Design Process
-Our Design Process for this website is to let users to be able to use the website easily. We decided to go for the default fonts size, not too big or small to make the website neater. We will also design our website in a way that our information will be easily understood by the user (eg. Adoption Process). Our project will include navigation tabs to navigate to different pages, some front-end interactivity, organized and well structured information in the pages as well as suitable typography and color schemes. 
+Our Design Process for this website is to let users to be able to use the website easily. We decided to go for the default fonts size, not too big or small to make the website neater and users to read the website confortably. We will also design our website in a way that our information will be easily understood by the user (eg. Adoption Process). Our project will include navigation tabs to navigate to different pages, some front-end interactivity, organized and well structured information in the pages as well as suitable typography and color schemes. 
 
 Users we also be able to visit our website on their phones. (not sure, if got time)
 
@@ -29,6 +29,7 @@ Example:
 - [HTML]
 - [CSS]
 - [JAVASCRIPT]
+- [API]
 
 
 ## Testing
