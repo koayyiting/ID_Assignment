@@ -10,19 +10,27 @@ Our Design Process for this website is to let users to be able to use the websit
 
 Users we also be able to visit our website on their phones. (not sure, if got time)
 
-Example:
-- As a user type, I want to press the navigation buttons, so that I am able to navgiate to other pages.
+- As a user type, I want to be able to switch between pages with the navigation buttons.
+- As a user type, I want to be able to enter messages and information in the contact us page to contact the owner
+- As a user type, I want to be able press in "Learn More" buttons in the Adopt page so I can learn more 
+  information about the cat.
 
-Wireframe Link: https://xd.adobe.com/view/0a394988-2c14-4301-9cb8-45c60bf2595c-5f6a/
+Wireframe Link: https://xd.adobe.com/view/0a394988-2c14-4301-9cb8-45c60bf2595c-5f6a/ (First Draft)
 
 ## Feature
 
 ### Existing Features
 Example:
-- Feature 1 - On the Navigation tab, it allows users to navigate to other page, by having them on click to the navigation button.
+- Feature 1 - On the Navigation tab, it allows the users to navigate to other page, by having them on click to the
+  navigation button.
+- Feature 2 - At the Adopt page, it allows the user to switch between the 2 pages for adopt.
+- Feature 3 - At the Adopt page, it allows the user to press "Learn More" button and "Back" to the previous page.
+- Feature 4 - At the Donate page, it allows the user to input their details and submit by clicking on "Donate!".
+- Feature 5 - At the Contact Page, it allows the user to input the message they want to tell the owner and submit
+  by clicking "Submit". (API)
 
 ### Features Left to Implement
--
+- Media (more in-depth)
 
 ## Technologies Used
 
@@ -33,35 +41,75 @@ Example:
 
 
 ## Testing
-
 Example:
 1. Navigation Tab:
     1. Go to the Navigation Tab
-    (Since one page include 2 content, tab buttons need to link to page and page section)
-    2. Try to navigate to another page's section
+    2. Try to navigate to another pages
 
-## How my project will looks and works on different browsers and screen sizes
+2. Adopt Page: (2 Pages)
+    1. Go to Adopt Page
+    2. Try clicking "Next" button
+       (it should go on the second page of adopt)
+    3. Trying clicking "Back" button 
+       (it should go back to the previous page)
 
-Example:
-- When the size is down to width 576px, sizes of different content will strink. Flex-box will also be utilised so the users would still be able to see the informations in the flex-boxes which means the arrangement of the Website will be slightly different from what users can see on thier laptop/computer. 
+3. Adopt Page: (Learn More)
+    1. Go to Adopt Page
+    2. Try clicking on the "Learn More" button for a cat
+       (it should nav to another page that shows the information about the particular)
+    3. Try clicking on the "Back" button to go back to the previous page
+
+4. Donate Page:
+    1. Go to Donate Page
+    2. Try entering text in the textboxes
+    3. Try pressing "Donate!" button
+
+5. Contact Page:
+    1. Go to Contact Page
+    2. Try entering text in the textboxes
+    3. Try pressing "Submit" button
 
 ## Interesting bugs or problems I discovered during my testing, even if you haven't addressed them yet
 
-- 
+- The image does not go the the center of the container (fixed)
+- API for Contact Page can submit but cannot send data to restdb.io
 
 ## Credits
 
 ### Content
-- Content information...
+- Content information are all false, made up by us.
 
 ### Media
-- Credits for (eg. images, videos)
+- Credits for
+  Images:
+- index.html:
+    - https://images.squarespace-cdn.com/content/v1/5b67dd825b409b9876b3063a/1533655000909-0T4SSMOTLPVWYGXHNP83/logo_orig.jpg?format=750w
+- adopt.html:
+    - https://unsplash.com/s/photos/cute-cat
+    - https://blog.petloverscentre.com/wp-content/uploads/2020/06/Cat-Adoption-Centres-Singapore-Animal-Lovers-League-1024x683.jpg 
+    - https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs27GUFf7VQvuxXTImzWoba5hNQTp_mb3BFg&usqp=CAU
+    - https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuVDIRFgFM4umwW16cvKzEu7yLJmdiVqO4qg&usqp=CAU
+    - https://i.redd.it/0xndllnno5r61.jpg
+    - https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSHOL2VdOb4K3TVhetlHMA1TjY07Ldj-_uCA&usqp=CAU
+    - https://thumbs.dreamstime.com/b/stray-cat-singapore-1717768.jpg
+    - https://static.mothership.sg/1/2021/05/188764913_10157586308740981_2340798563692116953_n.jpeg
+    - https://images.squarespace-cdn.com/content/v1/59bec4f16f4ca3d8bb1ad9f8/1623594473267-PI6SCTL909M68ITNMLFI/Nosy+am.jpeg
+    - https://static.mothership.sg/1/2021/05/188335921_10157586308705981_2260477064106273744_n.jpeg
+    - https://static.wixstatic.com/media/2ba7d3_cc01edfcdf8f41a59aebfcf4884e4d52~mv2_d_2976_3968_s_4_2.jpg/v1/fill/w_250,h_333,al_c,q_90/2ba7d3_cc01edfcdf8f41a59aebfcf4884e4d52~mv2_d_2976_3968_s_4_2.jpg
+    - https://www.catwelfare.org/wp-content/uploads/2021/11/JIlliana-10-768x1024.jpeg
+- event.html:
+    - https://www.catwelfare.org/fostering-101-workshop-on-28-jan-2018/
+- contact.html:
+    - https://cdn.searchenginejournal.com/wp-content/uploads/2020/08/contact-us-pages-sej-5f63d4f927b04-1520x800.png
+
+
 
 ### Acknowledgements
-
-- We received inspiration for this project...
+- We received inspiration for this project W3school, YouTube, BootStrap.
 
 
 ### Some VSCode ShortCuts for us to use:
 Ctrl + [ = dedent
 Ctrl + ] = indent  
+Ctrl + Shift + L = select all particular
+Alt + Shift - I
