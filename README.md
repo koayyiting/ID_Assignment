@@ -111,5 +111,5 @@ Example:
 ### Some VSCode ShortCuts for us to use:
 Ctrl + [ = dedent
 Ctrl + ] = indent  
-Ctrl + Shift + L = select all particular
-Alt + Shift - I
+Ctrl + Shift + L = select all highlighted word
+Alt + Shift - I = select highlighted row
