@@ -90,7 +90,6 @@ body{
 }
 h4{
     padding-bottom: 5px;
-    color: #7ed321;
 }
 .inputGroup{
     margin-bottom: 8px;
@@ -198,7 +197,16 @@ button:hover{
     cursor: pointer;
     background: #5eb105;
 }
-donate.html .form{
+
+/* END OF YUZET'S CSS */
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
+.eventText{
     text-align: center;
 }
-/* END OF YUZET'S CSS */
