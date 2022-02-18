@@ -45,38 +45,5 @@ $(document).ready(function () {
       getContacts();
     });
   });
-  
-  /*
-  function getContacts(limit = 10, all = true) {
 
-    let settings = {
-      "async": true,
-      "crossDomain": true,
-      "url": "https://interactviedev-2215.restdb.io/rest/contactus",
-      "method": "GET",
-      "headers": {
-        "content-type": "application/json",
-        "x-apikey": APIKEY,
-        "cache-control": "no-cache"
-      },
-    }
-
-    $.ajax(settings).done(function (response) {
-      
-      let content = "";
-
-      for (var i = 0; i < response.length && i < limit; i++) {
-
-        content = `${content}<tr id='${response[i]._id}'><td>${response[i].name}</td>
-        <td>${response[i].email}</td>
-        <td>${response[i].number}</td>
-        <td>${response[i].subject}</td>
-        <td>${response[i].message}</td>
-        <td><a href='#' class='delete' data-id='${response[i]._id}'>Del</a></td><td><a href='#update-contact-container' class='update' data-id='${response[i]._id}' data-msg='${response[i].message}' data-name='${response[i].name}' data-email='${response[i].email}'>Update</a></td></tr>`;
-
-      }
-
-      $("#total-contacts").html(response.length);
-    });
-  }*/
 });
