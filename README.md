@@ -63,23 +63,23 @@ Example:
     3. Trying clicking "Back" button 
        (same as 2.)
 
-3. Adopt Page: (Learn More)
+4. Adopt Page: (Learn More)
     1. Go to Adopt Page
     2. Try clicking on the "Learn More" button for a cat
        (it should nav to another page that shows the information about the particular)
     3. Try clicking on the "Back" button to go back to the previous page
 
-4. Donate Page:
+5. Donate Page:
     1. Go to Donate Page
     2. Try entering text in the textboxes
     3. Try pressing "Donate!" button
 
-5. Event Page:
+6. Event Page:
     1. Go to the Event Page
     2. Try clicking on the "Google Maps" text
     (it should open a new tab and direct you to our selected location)
 
-6. Contact Page:
+7. Contact Page:
     1. Go to Contact Page
     2. Try entering text in the textboxes
     3. Try pressing "Submit" button
