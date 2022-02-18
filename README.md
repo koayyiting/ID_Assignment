@@ -24,10 +24,11 @@ Example:
 - Feature 1 - On the Navigation tab, it allows the users to navigate to other page, by having them on click to the
   navigation button.
 - Feature 2 - At the Adopt page, it allows the user to switch between the 2 pages for adopt.
-- Feature 3 - At the Adopt page, it allows the user to press "Learn More" button and "Back" to the previous page.
-- Feature 4 - At the Donate page, it allows the user to input their details and submit by clicking on "Donate!".
-- Feature 5 - At the Event Page, it allows the user to press the "Google Maps" Text and direct them to google maps.
-- Feature 6 - At the Contact Page, it allows the user to input the message they want to tell the owner and submit
+- Feature 3 - In the process of Feature 3, it will show a loading animation.
+- Feature 4 - At the Adopt page, it allows the user to press "Learn More" button and "Back" to the previous page.
+- Feature 5 - At the Donate page, it allows the user to input their details and submit by clicking on "Donate!".
+- Feature 6 - At the Event Page, it allows the user to press the "Google Maps" Text and direct them to google maps.
+- Feature 7 - At the Contact Page, it allows the user to input the message they want to tell the owner and submit
   by clicking "Submit". (API)
 
 ### Features Left to Implement
@@ -38,7 +39,8 @@ Example:
 - [HTML]
 - [CSS]
 - [JAVASCRIPT]
-- [API]
+- [API] (restdb.io)
+- [Lottie] (lottiefiles)
 
 
 ## Testing
@@ -50,9 +52,16 @@ Example:
 2. Adopt Page: (2 Pages)
     1. Go to Adopt Page
     2. Try clicking "Next" button
-       (it should go on the second page of adopt)
+       (it should go on the second page of adopt in the end)
     3. Trying clicking "Back" button 
-       (it should go back to the previous page)
+       (it should go back to the previous page in the end)
+
+3. Adopt Page: (2 Page Animation)
+    1. Go to Adopt Page
+    2. Try clicking "Next" button
+       (it should pop up a loading animation before direction to second page)
+    3. Trying clicking "Back" button 
+       (same as 2.)
 
 3. Adopt Page: (Learn More)
     1. Go to Adopt Page
@@ -78,7 +87,7 @@ Example:
 ## Interesting bugs or problems I discovered during my testing, even if you haven't addressed them yet
 
 - The image does not go the the center of the container (fixed)
-- API for Contact Page can submit but cannot send data to restdb.io
+- Lottie Animation backgroud-color is wrong at first (fixed)
 
 ## Credits
 
@@ -113,7 +122,7 @@ Example:
 
 
 ### Acknowledgements
-- We received inspiration for this project W3school, YouTube, BootStrap.
+- We received inspiration for this project W3school, YouTube, BootStrap, Lottie.
 
 
 ### Some VSCode ShortCuts for us to use:
