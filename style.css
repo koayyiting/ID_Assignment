@@ -210,3 +210,7 @@ button:hover{
 .eventText{
     text-align: center;
 }
+
+.imgSize{
+    width: 50%;
+}
