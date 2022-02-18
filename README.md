@@ -26,7 +26,8 @@ Example:
 - Feature 2 - At the Adopt page, it allows the user to switch between the 2 pages for adopt.
 - Feature 3 - At the Adopt page, it allows the user to press "Learn More" button and "Back" to the previous page.
 - Feature 4 - At the Donate page, it allows the user to input their details and submit by clicking on "Donate!".
-- Feature 5 - At the Contact Page, it allows the user to input the message they want to tell the owner and submit
+- Feature 5 - At the Event Page, it allows the user to press the "Google Maps" Text and direct them to google maps.
+- Feature 6 - At the Contact Page, it allows the user to input the message they want to tell the owner and submit
   by clicking "Submit". (API)
 
 ### Features Left to Implement
@@ -64,7 +65,12 @@ Example:
     2. Try entering text in the textboxes
     3. Try pressing "Donate!" button
 
-5. Contact Page:
+5. Event Page:
+    1. Go to the Event Page
+    2. Try clicking on the "Google Maps" text
+    (it should open a new tab and direct you to our selected location)
+
+6. Contact Page:
     1. Go to Contact Page
     2. Try entering text in the textboxes
     3. Try pressing "Submit" button
