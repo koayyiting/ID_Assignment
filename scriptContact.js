@@ -1,7 +1,6 @@
 $(document).ready(function () {
   const APIKEY = "61ffe45ef701f4600008970e";
   getContacts();
-  $("#add-update-msg").hide();
 
   $("#contact-submit").on("click", function (e) {
     e.preventDefault();
@@ -42,8 +41,6 @@ $(document).ready(function () {
       console.log(response);
       
       $("#contact-submit").prop( "disabled", false);
-
-      $("#add-update-msg").show().fadeOut(3000);
 
       getContacts();
     });
