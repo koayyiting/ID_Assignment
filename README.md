@@ -105,6 +105,8 @@ Example:
     - https://www.catwelfare.org/wp-content/uploads/2021/11/JIlliana-10-768x1024.jpeg
 - event.html:
     - https://www.catwelfare.org/fostering-101-workshop-on-28-jan-2018/
+    - https://www.arkc.sg/wp-content/uploads/2020/08/ARKC-cat-adoption-drive-2.jpg
+    - https://static1.straitstimes.com.sg/s3fs-public/styles/large30x20/public/articles/2018/04/26/bp_cats3_260418_20_0.jpg?VersionId=g8YprnqX0VJc6h.ng_wxt4qJJk4.vM2w&itok=MAXlUsg7
 - contact.html:
     - https://cdn.searchenginejournal.com/wp-content/uploads/2020/08/contact-us-pages-sej-5f63d4f927b04-1520x800.png
 
